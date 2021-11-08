@@ -1,0 +1,50 @@
+/* image stay on scroll */
+
+/* header.masterhead {
+    margin-bottom: 50px;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+} */
+
+/* parallax scroll */
+
+header.masterhead {
+    margin-bottom: 50px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header.masterhead .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    opacity: 0.5;
+}
+
+header.masterhead .page-heading {
+    text-align: center;
+    padding: 200px 0;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+}
+
+header.masterhead .page-heading h1 {
+    font-size: 80px;
+}
+
+header.masterhead .page-heading span {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin: 10px 0 0;
+}
