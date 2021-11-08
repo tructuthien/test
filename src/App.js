@@ -2,19 +2,12 @@ import React from "react";
 import './App.css';
 
 
-const App = () => {
-
-  return (
-
-    //REDO this part
-
+function App() {
+	return (
     <div>
-      <h1>test</h1>
-
+      <h1>ffffff</h1>
     </div>
-
-  );
-
+	);
 }
 
-export default App
+export default App;
